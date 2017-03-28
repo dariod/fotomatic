@@ -233,7 +233,7 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
-  height: 35rem;
+  height: 39.6875rem;
 }
 
 .feature .image-container {
@@ -301,6 +301,7 @@ header .mobile {
 #filters-section .content {
   padding: 0 .625rem;
   margin-bottom: 5rem;
+  /*margin-top: 4rem;*/
 }
 
 #filters-section .content h2 {
@@ -317,9 +318,23 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
+  margin-left: 4rem;
 }
+
+#filters-section .image-container {
+  width: 25%;
+  margin: 0 auto;
+  height: auto;
+}
+
+#filters-section .image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 @media only screen and (max-width: 760px) {
   #filters-section {
