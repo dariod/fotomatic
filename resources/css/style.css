@@ -90,6 +90,10 @@ header .mobile {
 
 @media only screen and (max-width: 760px) {
 
+  header {
+    height: auto;
+  }
+
   header .desktop {
     display: none;
   }
@@ -100,7 +104,7 @@ header .mobile {
   }
 
   header .content {
-    /*padding: .5rem 0;*/
+    padding: .5rem 0;
   }
 
   header .mobile ul {
@@ -127,6 +131,7 @@ header .mobile {
   background-image: url("../images/banner-landingpage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
 }
 
 
@@ -195,6 +200,7 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+    margin: 0 0 0 0;
   }
 
   #sign-up-cta .content {
